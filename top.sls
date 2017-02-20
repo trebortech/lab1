@@ -1,6 +1,2 @@
-# Base top file
 
-base:
-
-  '*':
     
