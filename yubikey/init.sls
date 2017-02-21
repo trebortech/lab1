@@ -70,12 +70,12 @@
 #  User management
 #######################################################
 
-"Add rbooth User":
+"Add secure User":
   user.present:
-    - name: rbooth
-    - fullname: rbooth
+    - name: secure
+    - fullname: secure
     - shell: '/bin/bash'
-    - password: '$1$Ir6aGED1$dCRpeGUGwVqiu1KWK8NcG/'
+    - password: '$1$RMGwjAU9$TrWN4VNEg3.6aDL2sJkV..'
     - optional_groups:
       - wheel
       - admin
